@@ -1,5 +1,30 @@
 🎮 Tic Tac Toe Game
 
+Recently Updated the UI and Gameplay of this Game which includes -> 
+## Features
+- Single-player mode vs Computer
+- Interactive and modern UI
+- Scoreboard to track wins
+- Reset and New Game options
+
+## Tech Stack
+- HTML
+- CSS
+- JavaScript
+
+## Screenshots
+<img width="1918" height="1080" alt="4" src="https://github.com/user-attachments/assets/1ad98b21-93b5-4b73-a8ac-7a953184b672" />
+<img width="1920" height="1073" alt="3" src="https://github.com/user-attachments/assets/2275acef-1357-4c98-9423-60060c3a8d78" />
+<img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/67a3640c-e4d0-435f-9904-3039f56e7d46" />
+<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/5a8924a2-d6db-4d90-86aa-bd5ad1398bce" />
+
+
+## Live Demo
+🔗 Play the Game: https://iam-sarthakdev.github.io/Tic-Tac-Toe-Game/
+
+
+Old GAme ->
+
 A simple and interactive Tic Tac Toe game built using HTML, CSS, and JavaScript.
 This project helped me practice DOM manipulation, event handling, and structuring game logic.
 
