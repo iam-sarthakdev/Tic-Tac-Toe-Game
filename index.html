@@ -1,32 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic-Tac-Toe Game</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="msg-container hide">
-        <p id="msg">Winner</p></div>
-    <button id="new-game">New Game </button>
+    <div class="background-blobs"></div>
     <main>
-        <h1>Tic Tae Toe</h1>
-        <div class="container">
+        <div class="msg-container hide">
+            <p id="msg">Winner</p>
+            <button id="new-game">New Game</button>
+        </div>
+
+        <h1 class="title">Tic <span class="highlight">Tac</span> Toe</h1>
+
+        <div class="status-bar">
+            <div class="score-board">
+                <div class="score-box x-score">
+                    <span class="player-label">Computer (X)</span>
+                    <span id="score-x">0</span>
+                </div>
+                <div class="score-box o-score">
+                    <span class="player-label">You (O)</span>
+                    <span id="score-o">0</span>
+                </div>
+            </div>
+            <div class="turn-indicator">
+                Turn: <span id="current-turn">O</span>
+            </div>
+        </div>
+
+        <div class="game-container">
             <div class="game">
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
         </div>
-        </div>
+
         <button id="reset-btn">Reset Game</button>
     </main>
     <script src="script.js"></script>
 </body>
+
 </html>
